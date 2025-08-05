@@ -209,7 +209,7 @@ const EducationData = [
     to: "2024-06",
     dot: "left",
     description:
-      "Comprehensive undergraduate program covering fundamental computer science concepts, programming, and software engineering principles.",
+      "Undergraduate program covering fundamental computer science concepts, programming, and software engineering principles.",
     responsibilities: [
       "Data Structures & Algorithms",
       "Java Programming",
@@ -227,10 +227,9 @@ const EducationData = [
       "ERP"
     ],
     achievements: [
-      "Graduated Magna Cum Laude with GPA 3.7/4.0",
+      "Graduated with GPA 3.7/4.0",
       "Won 2nd place in university-wide hackathon competition",
-      "Served as teaching assistant for Introduction to Programming course",
-      "Led student programming club with 50+ active members",
+      "Led student programming club ATIA with 50+ active members",
     ],
     technologies: [
       "Java",
