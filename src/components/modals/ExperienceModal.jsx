@@ -69,14 +69,12 @@ function ExperienceModal({
             ×
           </button>
         </div>
-
         {/* Description */}
         {description && (
           <div className="mb-6">
             <p className="leading-relaxed text-gray-800">{description}</p>
           </div>
         )}
-
         {/* Responsibilities */}
         {responsibilities && responsibilities.length > 0 && (
           <div className="mb-6">
@@ -106,7 +104,8 @@ function ExperienceModal({
               </ul>
             )}
           </div>
-        )}        {/* Achievements */}
+        )}{" "}
+        {/* Achievements */}
         {achievements && achievements.length > 0 && (
           <div className="mb-6">
             <h4 className="mb-3 text-lg font-medium text-[var(--primary-dark-blue)]">
@@ -121,7 +120,6 @@ function ExperienceModal({
             </ul>
           </div>
         )}
-
         {/* Technologies */}
         {technologies && technologies.length > 0 && !isEducation && (
           <div className="mb-6">
@@ -140,7 +138,6 @@ function ExperienceModal({
             </div>
           </div>
         )}
-
         {/* Close Button */}
         <div className="flex justify-end border-t border-gray-200 pt-4">
           <button

@@ -212,6 +212,9 @@ const EducationData = [
       "Comprehensive undergraduate program covering fundamental computer science concepts, programming, and software engineering principles.",
     responsibilities: [
       "Data Structures & Algorithms",
+      "Java Programming",
+      "Python Programming",
+      "C++ Programming",
       "Web Development",
       "Networking",
       "Linear Algebra and Calculus",

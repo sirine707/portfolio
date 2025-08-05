@@ -1,5 +1,6 @@
 import SectionHeading from "../../components/layout/SectionHeading/SectionHeading";
 import BlogCard from "../../components/cards/BlogCards/Card/BlogCard";
+import { Button } from "../../components/Buttons/Buttons";
 
 import { useRef } from "react";
 import { SlideInUp } from "../../transitions/Slide";
@@ -105,6 +106,17 @@ function Blog() {
               readTime="9 min read"
               imgStyle={commonImgStyle}
             />
+          </div>
+
+          {/* See More Button */}
+          <div className="slide-in-up flex justify-center">
+            <Button
+              href="https://sirinejnayeh.hashnode.dev/"
+              type="primary"
+              newtab="true"
+            >
+              See more
+            </Button>
           </div>
         </div>
       </div>
