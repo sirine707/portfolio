@@ -1,4 +1,5 @@
 import SectionHeading from "../../components/layout/SectionHeading/SectionHeading";
+import ExperienceModal from "../../components/modals/ExperienceModal";
 import { useEffect, useState, useRef } from "react";
 
 // GSAP
@@ -18,17 +19,69 @@ const ExperienceData = [
     loc: "Jems Group",
     logo: "/logos/Jems_logo.png",
     from: "2024-09-01",
-    to: "today",
+    to: "2025-07-01",
     dot: "right",
+    description:
+      "Specialized in developing and deploying custom AI monitoring solutions and agentic systems, focusing on enhancing system reliability and autonomous decision-making workflows.",
+    responsibilities: [
+      "Engineered and deployed custom Nagios plugins to extend monitoring functionality for enterprise systems",
+      "Developed scalable APIs and robust data drift detection systems for Large Language Models",
+      "Designed and operationalized agentic AI systems using LangChain for autonomous workflows",
+      "Maintained and enhanced CI/CD pipelines to support scalable deployment of AI components",
+      "Implemented monitoring solutions to ensure consistent model performance in production environments",
+    ],
+    achievements: [
+      "Achieved 30% increase in incident detection accuracy across systems through custom monitoring plugins",
+      "Boosted end-to-end process efficiency by 20% through autonomous decision-making workflows",
+      "Successfully deployed scalable AI monitoring and agentic components in production environments",
+      "Proactively identified and mitigated distributional shifts to maintain consistent LLM performance",
+    ],
+    technologies: [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "LangChain",
+      "Flask",
+      "Nagios",
+      "CI/CD",
+      "APIs",
+      "Data Drift Detection",
+    ],
   },
   {
     id: 2,
     title: "Java Backend Developer",
     loc: "NeoXam",
     logo: "/logos/neoxam_logo.png",
-    from: "2024-02-05",
-    to: "2024-07-10",
+    from: "2024-02-01",
+    to: "2024-06-01",
     dot: "right",
+    description:
+      "Led the design and development of comprehensive testing frameworks for financial data processing systems handling over $14 trillion worth of assets daily.",
+    responsibilities: [
+      "Led the design and development of Unit Testing Framework for prioritized business rules functions in NXDataHub",
+      "Developed robust testing solutions using Java, JUnit4, and Mockito for high-volume financial data processing",
+      "Reviewed and provided detailed feedback on 20+ pull requests to ensure code quality and project standards",
+      "Integrated Continuous Integration/Deployment Pipeline processes for automated testing workflows",
+      "Conducted comprehensive load/stress testing, integration testing, and end-to-end testing procedures",
+    ],
+    achievements: [
+      "Successfully developed testing framework for systems processing $14+ trillion worth of assets per day",
+      "Maintained 100% code review completion rate across 20+ pull requests",
+      "Implemented comprehensive CI/CD pipeline integration improving deployment reliability",
+      "Enhanced system reliability through rigorous testing methodologies and quality assurance processes",
+    ],
+    technologies: [
+      "Java",
+      "JUnit4",
+      "Mockito",
+      "TDD",
+      "Git",
+      "Docker",
+      "AWS S3",
+      "CI/CD",
+      "Load Testing",
+    ],
   },
   {
     id: 3,
@@ -36,8 +89,40 @@ const ExperienceData = [
     loc: "Accenture North America",
     logo: "/logos/accenture_logo.jpg",
     from: "2023-02-01",
-    to: "2023-03-30",
+    to: "2023-03-01",
     dot: "right",
+    description:
+      "Built and deployed full-stack web applications with automated CI/CD pipelines, focusing on performance optimization and comprehensive testing coverage.",
+    responsibilities: [
+      "Built product search feature using React with hooks and debouncing techniques for optimal user experience",
+      "Integrated frontend components with Spring Boot REST APIs to ensure seamless data flow",
+      "Dockerized both backend and frontend applications for consistent deployment environments",
+      "Deployed applications to AWS ECS (Fargate) using CodePipeline for automated daily deployments",
+      "Managed development tasks using JIRA and implemented GitFlow branching strategy for version control",
+    ],
+    achievements: [
+      "Reduced average search latency by 30% through optimized React implementation with debouncing",
+      "Achieved 95% test coverage through comprehensive unit and integration testing",
+      "Automated daily deployments without server management using AWS ECS Fargate",
+      "Maintained high code quality standards using SonarQube for static code analysis in CI pipeline",
+    ],
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Jenkins",
+      "Scrum",
+      "Docker",
+      "AWS ECS",
+      "CodePipeline",
+      "JUnit",
+      "Mockito",
+      "Postman",
+      "SonarQube",
+      "JIRA",
+      "GitFlow",
+      "CloudWatch",
+    ],
   },
 ];
 
@@ -47,27 +132,73 @@ const EducationData = [
     title: "Masters in Artificial Intelligence",
     loc: "Esprit School Of Business",
     logo: "/logos/esb_logo.jpg",
-    from: "2023-05",
-    to: "2024-05",
+    from: "2024-09",
+    to: "today",
     dot: "left",
+    description:
+      "Advanced graduate program focusing on Generative AI, and AI applications in business contexts.",
+    responsibilities: [
+      "Data Structures & Algorithms",
+      "Linear Algebra",
+      "Machine Learning",
+      "Deep Learning",
+      "Big Data",
+      "Prompt Engineering",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Project Management",
+      "Probability and Statistics",
+      "Data Visualization",
+      "MLOps",
+    ],
+    achievements: [
+      "Graduated 1st semester with distinction (GPA: 3.8/4.0)",
+      "Led team project that won 'Best AI Innovation' award",
+      "Completed internship resulting in full-time job offer",
+    ],
+    technologies: [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Jupyter",
+      "Git",
+    ],
   },
-  // {
-  //   id: 2,
-  //   title: "CS50: Introduction to Computer Science",
-  //   loc: "Harvard University",
-  //   logo: "/logos/harvard_logo.png",
-  //   from: "2024-08",
-  //   to: "2024-11",
-  //   dot: "left",
-  // },
   {
     id: 3,
     title: "Manara Software Engineering Program",
-    loc: "US",
+    loc: "United States",
     logo: "/logos/manara_logo.png",
     from: "2024-02",
     to: "today",
     dot: "left",
+    description:
+      "Intensive software engineering program focused on preparing students for careers at top tech companies through hands-on projects and mentorship.",
+    responsibilities: [
+      "Completed intensive coding bootcamp covering full-stack development",
+      "Participated in mock technical interviews and coding challenges",
+      "Worked on collaborative projects with international team members",
+      "Attended workshops on system design and software architecture",
+    ],
+    achievements: [
+      "Completed 300+ coding challenges with 95% success rate",
+      "Built and deployed 3 full-stack applications",
+      "Received mentorship from senior engineers at FAANG companies",
+      "Improved technical interview skills through structured practice",
+    ],
+    technologies: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Python",
+      "SQL",
+      "MongoDB",
+      "AWS",
+      "Docker",
+    ],
   },
   {
     id: 4,
@@ -77,14 +208,56 @@ const EducationData = [
     from: "2021-09",
     to: "2024-06",
     dot: "left",
+    description:
+      "Comprehensive undergraduate program covering fundamental computer science concepts, programming, and software engineering principles.",
+    responsibilities: [
+      "Data Structures & Algorithms",
+      "Web Development",
+      "Networking",
+      "Linear Algebra and Calculus",
+      "Object-Oriented Programming",
+      "Database Management",
+      "Statistics and probability",
+      "Seminars",
+      "Marketing",
+      "Business Intelligence",
+      "ERP"
+    ],
+    achievements: [
+      "Graduated Magna Cum Laude with GPA 3.7/4.0",
+      "Won 2nd place in university-wide hackathon competition",
+      "Served as teaching assistant for Introduction to Programming course",
+      "Led student programming club with 50+ active members",
+    ],
+    technologies: [
+      "Java",
+      "C++",
+      "Python",
+      "JavaScript",
+      "React",
+      "SQL",
+      "Git",
+      "Linux",
+      "Android Development",
+    ],
   },
-
-  
 ];
 
 function Experience() {
   const expContainerRef = useRef();
   const expTimeline = useRef();
+  const [selectedExperience, setSelectedExperience] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleExperienceClick = (experienceData) => {
+    setSelectedExperience(experienceData);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedExperience(null);
+  };
 
   useGSAP(
     () => {
@@ -145,7 +318,11 @@ function Experience() {
 
           <div className="slide-in-left flex flex-1 flex-col gap-2 md:gap-4">
             {ExperienceData.map((item) => (
-              <ExperienceCard key={item.id} {...item} />
+              <ExperienceCard
+                key={item.id}
+                {...item}
+                onClick={() => handleExperienceClick(item)}
+              />
             ))}
           </div>
 
@@ -159,10 +336,21 @@ function Experience() {
 
           <div className="slide-in-right flex flex-1 flex-col gap-2 md:gap-4">
             {EducationData.map((item) => (
-              <ExperienceCard key={item.id} {...item} />
+              <ExperienceCard
+                key={item.id}
+                {...item}
+                onClick={() => handleExperienceClick(item)}
+              />
             ))}
           </div>
         </div>
+
+        {/* Experience Modal */}
+        <ExperienceModal
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+          {...selectedExperience}
+        />
       </div>
     </section>
   );
@@ -179,6 +367,7 @@ function ExperienceCard({
   from = "2018-01-01",
   to = "today",
   dot = "right",
+  onClick,
 }) {
   useEffect(() => {
     setExpTime(calcDate(startDate, endDate));
@@ -197,7 +386,10 @@ function ExperienceCard({
     <div
       className={`flex items-center justify-center ${dotLeft ? "flex-row-reverse" : "flex-row"}`}
     >
-      <div className="flex w-full flex-row items-start gap-5 rounded-xl bg-stone-100 px-4 py-4.5">
+      <div
+        className="flex w-full cursor-pointer flex-row items-start gap-5 rounded-xl bg-stone-100 px-4 py-4.5 transition-colors hover:bg-stone-200"
+        onClick={onClick}
+      >
         <img
           className="max-h-16 rounded-lg"
           src={`${logo}`}
@@ -234,7 +426,7 @@ function calcDate(startDate, endDate) {
 }
 
 function formatExpDate(date) {
-  const month = date.toLocaleString("default", { month: "short" });
+  const month = date.toLocaleString("en-US", { month: "short" });
   const year = date.getFullYear();
   return `${month} ${year}`;
 }
