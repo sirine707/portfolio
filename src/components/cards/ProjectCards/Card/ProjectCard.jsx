@@ -78,11 +78,14 @@ function ProjectCardLinks({ ghLink, liveLink }) {
         </a>
       </HoverBtnWrapper>
 
+      {/* Link icon hidden as requested */}
+      {/* 
       <HoverBtnWrapper px={0.25} py={0.25}>
         <a href={liveLink} target="_blank">
           <LinkIcon className="h-6 w-6 fill-[var(--primary-dark-blue)] lg:h-7 lg:w-7" />
         </a>
       </HoverBtnWrapper>
+      */}
     </div>
   );
 }

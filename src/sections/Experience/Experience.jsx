@@ -124,6 +124,42 @@ const ExperienceData = [
       "CloudWatch",
     ],
   },
+  {
+    id: 4,
+    title: "Enterprise Java Developer",
+    loc: "TunisieTradeNet",
+    logo: "/logos/TTN_logo.png",
+    from: "2022-06-01",
+    to: "2022-08-01",
+    dot: "right",
+    description:
+      "Refactored monolithic systems into scalable microservices architecture using Spring Boot, GraphQL, and cloud technologies to improve performance and maintainability.",
+    responsibilities: [
+      "Refactored a monolithic foreign exchange system into microservices using Spring Boot, with dedicated databases and GraphQL APIs",
+      "Developed GraphQL schemas and resolvers for efficient, precise data fetching across complex entity relationships using JPA entity graphs",
+      "Containerized services with Docker and deployed on cloud platforms (AWS ECS/Kubernetes)",
+      "Implemented automated CI/CD pipelines for smooth releases and continuous deployment",
+      "Optimized system architecture to improve scalability and reduce latency across microservices",
+    ],
+    achievements: [
+      "Successfully migrated monolithic foreign exchange system to microservices architecture",
+      "Improved system scalability and reduced latency through GraphQL API implementation",
+      "Implemented efficient data fetching mechanisms using JPA entity graphs",
+      "Established automated CI/CD pipelines for streamlined deployment processes",
+    ],
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "Maven",
+      "GraphQL",
+      "JPA",
+      "Docker",
+      "AWS ECS",
+      "Kubernetes",
+      "CI/CD",
+    ],
+  },
 ];
 
 const EducationData = [
@@ -224,7 +260,7 @@ const EducationData = [
       "Seminars",
       "Marketing",
       "Business Intelligence",
-      "ERP"
+      "ERP",
     ],
     achievements: [
       "Graduated with GPA 3.7/4.0",

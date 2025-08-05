@@ -7,8 +7,8 @@ function CertificateCard({
 }) {
   return (
     <div className="mini-project-card relative flex h-35 w-full flex-row overflow-hidden rounded-lg">
-      <div 
-        className="h-full w-full cursor-pointer" 
+      <div
+        className="h-full w-full cursor-pointer"
         onClick={() => onClick({ title, imgSrc })}
       >
         {/* Certificate Card */}

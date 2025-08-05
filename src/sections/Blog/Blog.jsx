@@ -99,7 +99,7 @@ function Blog() {
             />
             <BlogCard
               title="Deploy EKS cluster with Jenkins"
-              desc="Step-by-step guide to deploying an AWS EKS cluster using Jenkins automation, including best practices and troubleshooting."
+              desc="Step-by-step guide to deploying an AWS EKS cluster using Jenkins automation, including best practices"
               readLink="https://sirinejnayeh.hashnode.dev/deploy-eks-cluster-with-jenkins "
               imgSrc="/ProjectThumbs/mini/blog4.png"
               publishDate="Jul 14, 2023"

@@ -36,7 +36,7 @@ function CertificateModal({ isOpen, onClose, title, imgSrc }) {
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute right-4 top-4 z-20 flex h-8 w-8 items-center justify-center rounded-full bg-black/20 text-white transition-colors hover:bg-black/40"
+          className="absolute top-4 right-4 z-20 flex h-8 w-8 items-center justify-center rounded-full bg-black/20 text-white transition-colors hover:bg-black/40"
           aria-label="Close modal"
         >
           <svg
@@ -60,7 +60,7 @@ function CertificateModal({ isOpen, onClose, title, imgSrc }) {
           <div className="bg-gray-50 px-6 py-4">
             <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
           </div>
-          
+
           {/* Image */}
           <div className="flex items-center justify-center p-4">
             <img
