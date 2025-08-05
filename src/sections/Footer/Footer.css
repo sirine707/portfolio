@@ -1,0 +1,11 @@
+#footer {
+  --footer-section-bg: #e7e5e4;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0%) 0%,
+      rgba(255, 255, 255, 0%) 50%,
+      #ffffff 100%
+    ),
+    linear-gradient(var(--footer-section-bg), var(--footer-section-bg));
+}

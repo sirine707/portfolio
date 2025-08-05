@@ -1,0 +1,36 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  button,
+  nav ul {
+    transition: var(--main-transition);
+  }
+
+  /* `lg` 64rem (1024px) */
+  @media (width >= 64rem) {
+    &.scrolled button {
+      padding: 4px 16px;
+    }
+
+    &.scrolled nav ul {
+      gap: 0;
+    }
+  }
+}
+.nav-links {
+  transition: all 0.1s var(--tr-bezier);
+  overflow: clip;
+}
+
+.nav-invisible {
+  max-height: 0;
+}
+
+.nav-visible {
+  max-height: 1000px;
+  padding: 1.5em 0.5em;
+  margin-top: 0.5em;
+}

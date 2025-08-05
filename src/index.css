@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --primary-blue: #051ec3;
+  --primary-dark-blue: #040826;
+  --primary-mid-blue: #000c66;
+
+  --primary-font: "Inter", sans-serif;
+  --container-width: 60rem;
+}
+
+:root {
+  --tr-duration: 0.6s;
+  --tr-bezier: cubic-bezier(0.22, 1, 0.36, 1);
+  --main-transition: all var(--tr-duration) var(--tr-bezier);
+  transition: var(--main-transition);
+}
+
+::-moz-selection {
+  @apply bg-[var(--primary-blue)]/20;
+}
+::selection {
+  @apply bg-[var(--primary-blue)]/20;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+a *,
+button,
+.cursor-pointer {
+  cursor: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: var(--primary-font);
+}
+
+.section {
+  padding-top: 5rem;
+  padding-inline: 1rem;
+  scroll-margin-top: 50px;
+
+  /* `md` -	48rem (768px) */
+  @media (width >= 48rem) {
+    padding-inline: 2rem;
+  }
+
+  /* `lg` 64rem (1024px) */
+  @media (width >= 64rem) {
+    margin-inline: 0;
+    scroll-margin-top: 80px;
+  }
+}
