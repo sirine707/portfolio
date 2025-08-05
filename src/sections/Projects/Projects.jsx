@@ -1,7 +1,9 @@
 import SectionHeading from "../../components/layout/SectionHeading/SectionHeading";
 import ProjectCard from "../../components/cards/ProjectCards/Card/ProjectCard";
 import ProjectModal from "../../components/modals/ProjectModal";
+import CertificateModal from "../../components/modals/CertificateModal";
 import MiniProjectsCardSlider from "../../components/layout/MiniProjectsCardSlider";
+import CertificatesCardSlider from "../../components/layout/CertificatesCardSlider";
 
 import { useRef, useState } from "react";
 import { SlideInUp } from "../../transitions/Slide";
@@ -92,15 +94,27 @@ function Projects() {
   const projectsTimeline = useRef();
   const [modalData, setModalData] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [certificateData, setCertificateData] = useState(null);
+  const [isCertificateModalOpen, setIsCertificateModalOpen] = useState(false);
 
   const handleProjectClick = (projectData) => {
     setModalData(projectData);
     setIsModalOpen(true);
   };
 
+  const handleCertificateClick = (certificateData) => {
+    setCertificateData(certificateData);
+    setIsCertificateModalOpen(true);
+  };
+
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setModalData(null);
+  };
+
+  const handleCloseCertificateModal = () => {
+    setIsCertificateModalOpen(false);
+    setCertificateData(null);
   };
 
   useGSAP(
@@ -284,8 +298,9 @@ function Projects() {
               title_m_width="max-w-70"
             />
             <div className="mt-8">
-              <MiniProjectsCardSlider
-                miniProjectsList={certificatesProjectsList}
+              <CertificatesCardSlider
+                certificatesList={certificatesProjectsList}
+                onCertificateClick={handleCertificateClick}
               />
             </div>
           </div>
@@ -305,6 +320,14 @@ function Projects() {
         liveLink={modalData?.liveLink}
         imgSrc={modalData?.imgSrc}
         headerImgSrc={modalData?.headerImgSrc}
+      />
+
+      {/* Certificate Modal */}
+      <CertificateModal
+        isOpen={isCertificateModalOpen}
+        onClose={handleCloseCertificateModal}
+        title={certificateData?.title}
+        imgSrc={certificateData?.imgSrc}
       />
     </section>
   );
