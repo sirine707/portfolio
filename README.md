@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my professional experience, projects, and skills as a Software Engineer specializing in AI and Full-Stack Development.
 
-![Portfolio Preview](./public/sirine.jpg)
+
 
 ## 🌟 Features
 
@@ -13,10 +13,6 @@ A modern, responsive portfolio website showcasing my professional experience, pr
 - **Blog Integration**: Connected to Hashnode blog for articles
 - **Performance Optimized**: Built with Vite for fast loading times
 - **Smooth Animations**: GSAP-powered scroll-triggered animations
-
-## 🚀 Live Demo
-
-Visit the live portfolio: [https://sirine.is-a.dev/](https://sirine.is-a.dev/)
 
 ## 🛠️ Built With
 
@@ -189,22 +185,8 @@ The project can be deployed on any static hosting service:
 - Surge.sh
 - Firebase Hosting
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/sirine707/sirine707-Portfolio/issues).
 
-## 📞 Contact
-
-**Sirine Jnayeh**
-- Website: [https://sirine.is-a.dev/](https://sirine.is-a.dev/)
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [@sirine707](https://github.com/sirine707)
-- Email: [Your Email]
-
----
-
-⭐ Star this repository if you found it helpful!
