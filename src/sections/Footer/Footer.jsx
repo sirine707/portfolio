@@ -64,12 +64,12 @@ function Footer() {
                     </a>
                   </li>
                   <li className="text-sm text-[var(--primary-dark-blue)]/75 hover:text-[var(--primary-dark-blue)]">
-                    <a href="https://contra.com/sirine_jnayeh_x81iaifm?referralExperimentNid=SOCIAL_REFERRAL_PROGRAM&referrerUsername=sirine_jnayeh_x81iaifm">
-                      Contra
-                    </a>
+                    <a href="https://sirinejnayeh.hashnode.dev/">Hashnode</a>
                   </li>
                   <li className="text-sm text-[var(--primary-dark-blue)]/75 hover:text-[var(--primary-dark-blue)]">
-                    <a href="https://sirinejnayeh.hashnode.dev/">Medium</a>
+                    <a href="https://huggingface.co/sirineddd" target="_blank">
+                      HuggingFace
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -84,7 +84,9 @@ function Footer() {
                     <a href="https://sirinejnayeh.hashnode.dev/">Blog</a>
                   </li>
                   <li className="text-sm text-[var(--primary-dark-blue)]/75 hover:text-[var(--primary-dark-blue)]">
-                    <a href="https://sirinejnayeh.hashnode.dev/">Newsletter</a>
+                    <a href="https://sirinejnayeh.hashnode.dev/newsletter">
+                      Newsletter
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -96,7 +98,7 @@ function Footer() {
           <div className="flex flex-col justify-between gap-4 py-6 md:flex-row md:gap-0">
             <div className="content-center">
               <p className="mx-auto max-w-[95%] text-center text-sm tracking-tight text-[var(--primary-dark-blue)]/75 md:mx-0 md:w-full md:max-w-none md:text-start">
-                Copyright © {currentYear} - 2019 -{" "}
+                Copyright © {currentYear}{" "}
                 <a href="/">Sirine Jnayeh</a>. All Rights Reserved.
               </p>
             </div>

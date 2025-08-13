@@ -54,7 +54,7 @@ const ExperienceData = [
     loc: "NeoXam",
     logo: "/logos/neoxam_logo.png",
     from: "2024-02-01",
-    to: "2024-06-01",
+    to: "2024-07-01",
     dot: "right",
     description:
       "Led the design and development of comprehensive testing frameworks for financial data processing systems handling over $14 trillion worth of assets daily.",
@@ -130,7 +130,7 @@ const ExperienceData = [
     loc: "TunisieTradeNet",
     logo: "/logos/TTN_logo.png",
     from: "2022-06-01",
-    to: "2022-08-01",
+    to: "2022-09-01",
     dot: "right",
     description:
       "Refactored monolithic systems into scalable microservices architecture using Spring Boot, GraphQL, and cloud technologies to improve performance and maintainability.",
@@ -460,7 +460,12 @@ function calcDate(startDate, endDate) {
   const years = Math.floor(totalMonths / 12);
   const months = totalMonths % 12;
 
-  return `${years} yrs ${months} mos`;
+  // Only show years if 1 year or more
+  if (years >= 1) {
+    return `${years} yrs ${months} months`;
+  } else {
+    return `${months} months`;
+  }
 }
 
 function formatExpDate(date) {
