@@ -19,7 +19,7 @@ const ExperienceData = [
     loc: "Jems Group",
     logo: "/logos/Jems_logo.png",
     from: "2024-09-01",
-    to: "2025-09-01",
+    to: "2025-08-31",
     dot: "right",
     description:
       "Specialized in developing and deploying custom AI monitoring solutions and agentic systems, focusing on enhancing system reliability and autonomous decision-making workflows.",
