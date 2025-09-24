@@ -462,7 +462,11 @@ function calcDate(startDate, endDate) {
 
   // Only show years if 1 year or more
   if (years >= 1) {
-    return `${years} yrs ${months} months`;
+    if (months === 0) {
+      return years === 1 ? `${years} year` : `${years} years`;
+    } else {
+      return years === 1 ? `${years} year ${months} months` : `${years} years ${months} months`;
+    }
   } else {
     return `${months} months`;
   }
