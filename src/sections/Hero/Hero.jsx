@@ -87,7 +87,7 @@ function Hero() {
               </Button>
               <Button
                 type="secondary"
-                href="https://drive.google.com/file/d/1pLaZNPltcHc4pqL24LpwBwibnqIgjD9S/view?usp=sharing"
+                href="https://drive.google.com/file/d/1vPsWmFc3UhW2daQwCBuTUgyYeyYs5VSt/view?usp=sharing"
                 newtab="true"
                 className="cursor-auto"
               >
