@@ -50,7 +50,7 @@ const ExperienceData = [
   },
   {
     id: 2,
-    title: "Java Backend Developer",
+    title: "Backend Developer",
     loc: "NeoXam",
     logo: "/logos/neoxam_logo.png",
     from: "2024-02-01",
