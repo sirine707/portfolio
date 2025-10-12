@@ -87,7 +87,7 @@ function Hero() {
               </Button>
               <Button
                 type="secondary"
-                href="https://drive.google.com/file/d/1xlHKOOKxXVqMdL4HqbLzEkMHylZfosl3/view?usp=sharing"
+                href="https://resume.sirinejnayeh.com"
                 newtab="true"
                 className="cursor-auto"
               >

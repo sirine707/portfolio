@@ -50,7 +50,7 @@ const ExperienceData = [
   },
   {
     id: 2,
-    title: "Backend Developer",
+    title: "Back End Developer",
     loc: "NeoXam",
     logo: "/logos/neoxam_logo.png",
     from: "2024-02-01",
@@ -126,7 +126,7 @@ const ExperienceData = [
   },
   {
     id: 4,
-    title: "Enterprise Java Developer",
+    title: "Back End Developer",
     loc: "TunisieTradeNet",
     logo: "/logos/TTN_logo.png",
     from: "2022-06-01",

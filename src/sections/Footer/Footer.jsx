@@ -71,6 +71,11 @@ function Footer() {
                       HuggingFace
                     </a>
                   </li>
+                  <li className="text-sm text-[var(--primary-dark-blue)]/75 hover:text-[var(--primary-dark-blue)]">
+                    <a href="https://leetcode.com/u/sheshhh/" target="_blank">
+                      LeetCode
+                    </a>
+                  </li>
                 </ul>
               </nav>
 
