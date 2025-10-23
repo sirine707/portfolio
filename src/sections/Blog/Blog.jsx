@@ -66,12 +66,34 @@ function Blog() {
         </div>
 
         <div className="flex flex-col gap-10">
+          {/* New Featured Blog Posts */}
+          <div className="slide-in-up flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-5">
+            <BlogCard
+              title="Fine-Tuning Made Fast: A Quick Guide to Unsloth"
+              desc="Learn how to fine-tune large language models efficiently using Unsloth, a powerful optimization library that speeds up training."
+              readLink="https://sirinejnayeh.hashnode.dev/fine-tuning-made-fast-a-quick-guide-to-unsloth"
+              imgSrc="/thumbnails/mini/blog0.jpeg"
+              publishDate="Jan 15, 2025"
+              readTime="6 min read"
+              imgStyle={commonImgStyle}
+            />
+            <BlogCard
+              title="Join the Open Source Revolution: A Beginner's Guide to Open Source Contribution"
+              desc="A comprehensive beginner's guide to getting started with open source contributions, from finding projects to making your first PR."
+              readLink="https://sirinejnayeh.hashnode.dev/join-the-open-source-revolution-a-beginners-guide-to-open-source-contribution"
+              imgSrc="/thumbnails/mini/blog5.png"
+              publishDate="Jan 10, 2025"
+              readTime="8 min read"
+              imgStyle={commonImgStyle}
+            />
+          </div>
+
           <div className="slide-in-up flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-5">
             <BlogCard
               title="Building Multi-Agent LLM Systems for Document Processing in the Enterprise"
               desc="Explore how to architect and deploy multi-agent LLM systems for scalable document processing."
               readLink="https://sirinejnayeh.hashnode.dev/building-multi-agent-llm-systems-for-document-processing-in-the-enterprise "
-              imgSrc="/ProjectThumbs/mini/blog1.jpg"
+              imgSrc="/thumbnails/mini/blog1.jpg"
               publishDate="Jun 9, 2025"
               readTime="10 min read"
               imgStyle={commonImgStyle}
@@ -80,7 +102,7 @@ function Blog() {
               title="Understanding Huffman Coding: A Practical Approach"
               desc="A hands-on guide to Huffman Coding, its algorithm, and real-world applications for efficient data compression."
               readLink="https://sirinejnayeh.hashnode.dev/understanding-huffman-coding-a-practical-approach#clzbj27sw0lkjccnvanf37l43"
-              imgSrc="/ProjectThumbs/mini/blog2.jpg"
+              imgSrc="/thumbnails/mini/blog2.jpg"
               publishDate="Aug 1, 2024"
               readTime="7 min read"
               imgStyle={commonImgStyle}
@@ -92,7 +114,7 @@ function Blog() {
               title="Binary Lifting: Applying DP on Binary Trees"
               desc="A beginner-friendly walkthrough of binary lifting and dynamic programming on binary trees."
               readLink=" https://sirinejnayeh.hashnode.dev/binary-lifting-my-first-time-applying-dp-on-binary-trees "
-              imgSrc="/ProjectThumbs/mini/blog3.jpg"
+              imgSrc="/thumbnails/mini/blog3.jpg"
               publishDate="Jul 26, 2024"
               readTime="8 min read"
               imgStyle={commonImgStyle}
@@ -101,7 +123,7 @@ function Blog() {
               title="Deploy EKS cluster with Jenkins"
               desc="Step-by-step guide to deploying an AWS EKS cluster using Jenkins automation, including best practices"
               readLink="https://sirinejnayeh.hashnode.dev/deploy-eks-cluster-with-jenkins "
-              imgSrc="/ProjectThumbs/mini/blog4.png"
+              imgSrc="/thumbnails/mini/blog4.png"
               publishDate="Jul 14, 2023"
               readTime="9 min read"
               imgStyle={commonImgStyle}

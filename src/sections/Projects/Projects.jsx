@@ -10,78 +10,162 @@ import { SlideInUp } from "../../transitions/Slide";
 
 const certificatesProjectsList = [
   {
-    title: "AWS Cloud Practitioner",
+    title: "Apollo Graph Developer - Associate",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/aws.png",
+    imgSrc: "/thumbnails/certificates/Graph Developer - Associate.png",
   },
   {
-    title: "Developing LLM Applications with LangChain",
+    title: "AWS Certified Cloud Practitioner",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/2.png",
+    imgSrc: "/thumbnails/certificates/AWS Certified Cloud Practitioner.png",
+  },
+  {
+    title: "Google Data Analytics Professional Certificate",
+    ghLink: "",
+    imgSrc:
+      "/thumbnails/certificates/Google Data Analytics Professional Certificate.png",
+  },
+  {
+    title: "Scrum Fundamentals Certified (SFC)",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/Scrum Fundamentals Certified (SFC).png",
+  },
+  {
+    title: "EF SET English Certificate (C2 Proficient)",
+    ghLink: "",
+    imgSrc:
+      "/thumbnails/certificates/EF SET English Certificate (C2 Proficient).png",
+  },
+  {
+    title:
+      "Accenture North America - Coding- Development & Advanced Engineering Job Simulation",
+    ghLink: "",
+    imgSrc:
+      "/thumbnails/certificates/Accenture North America - Coding- Development & Advanced Engineering Job Simulation.png",
+  },
+  {
+    title: "KMPG Australia - Virtual Experience Program Participant",
+    ghLink: "",
+    imgSrc:
+      "/thumbnails/certificates/KMPG Australia - Virtual Experience Program Participant.png",
+  },
+  {
+    title: "J.P. Morgan Private Bank - Investment Banking Virtual Experience",
+    ghLink: "",
+    imgSrc:
+      "/thumbnails/certificates/J.P. Morgan Private Bank - Investment Banking Virtual Experience.png",
+  },
+  {
+    title: "Java Certificate",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/Java Certificate.png",
+  },
+  {
+    title: "Manara GenAI",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/Manara GenAI.png",
+  },
+  {
+    title: "AWS Building a Machine Learning Ready Organization",
+    ghLink: "",
+    imgSrc:
+      "/thumbnails/certificates/Building a Machine Learning Ready Organization.png",
+  },
+  {
+    title: "Financial Modeling",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/Financial Modeling.png",
+  },
+  {
+    title: "React Applications Specialization",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/React Applications Specialization.png",
   },
   {
     title: "Designing Agentic Systems with LangChain",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/3.png",
+    imgSrc:
+      "/thumbnails/certificates/Designing Agentic Systems with LangChain.png",
   },
   {
-    title: "Fine-Tuning with Llama 3",
+    title: "Developing LLM Applications with LangChain",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/5.png",
+    imgSrc:
+      "/thumbnails/certificates/Developing LLM Applications with LangChain.png",
   },
   {
     title: "Developing Machine Learning Models for Production",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/6.png",
+    imgSrc:
+      "/thumbnails/certificates/Developing Machine Learning Models for Production.png",
   },
   {
-    title: "Data Analytics Consulting",
+    title: "Fine-Tuning with Llama 3",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/8.png",
+    imgSrc: "/thumbnails/certificates/Fine-Tuning with Llama 3.png",
   },
   {
-    title: "Development and advanced Engineering",
+    title: "Intermediate Deep Learning with PyTorch",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/9.png",
+    imgSrc:
+      "/thumbnails/certificates/Intermediate Deep Learning with PyTorch.png",
   },
   {
-    title: "React Fundamentals",
+    title: "Introduction to LLMs in Python",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/react.png",
+    imgSrc: "/thumbnails/certificates/Introduction to LLMs in Python.png",
   },
   {
-    title: "Java Certification",
+    title: "Supervised Learning with scikit-learn",
     ghLink: "",
-    imgSrc: "/ProjectThumbs/certificates/10.png",
+    imgSrc:
+      "/thumbnails/certificates/Supervised Learning with scikit-learn.png",
+  },
+  {
+    title: "Unsupervised Learning in Python",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/Unsupervised Learning in Python.png",
+  },
+  {
+    title: "LLMs",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/LLMs.png",
+  },
+  {
+    title: "Deep Learning with TensorFlow",
+    ghLink: "",
+    imgSrc: "/thumbnails/certificates/Deep Learning with TensorFlow.png",
   },
 ];
+
 const SmallProjectsList = [
   {
-    title: "Forecasting USD-TND Exchange-Rates",
-    ghLink: "https://github.com/sirine707/Forecasting-USD-TND-Exchange-Rates",
-    imgSrc: "/ProjectThumbs/miniproject/proj1.jpg",
+    title: "Forecasting USD-TND Exchange Rates",
+    ghLink: "https://github.com/sirine707/forecasting-usd-tnd-exchange-rates",
+    imgSrc: "/thumbnails/miniproject/proj1.jpg",
   },
   {
-    title: "Vision - RealTime Object Detection",
-    ghLink: "https://github.com/sirine707/Real-Time-Object-Detection",
-    imgSrc: "/ProjectThumbs/miniproject/proj2.jpg",
+    title: "Vision - Real-Time Object Detection",
+    ghLink: "https://github.com/sirine707/real-time-object-detection",
+    imgSrc: "/thumbnails/miniproject/proj2.jpg",
   },
   {
-    title: "BigData Pipeline For Retail Data Analysis",
-    ghLink: "https://github.com/sirine707/BigData_project/tree/master",
-    imgSrc: "/ProjectThumbs/miniproject/proj3.png",
+    title: "Big Data Pipeline for Retail Data Analysis",
+    ghLink: "https://github.com/sirine707/big-data-retail-data-analysis",
+    imgSrc: "/thumbnails/miniproject/proj3.png",
   },
   {
     title: "ExamGenius - Exam Preparation Platform",
-    ghLink: "https://github.com/sirine707/ExamGenius",
-    imgSrc: "/ProjectThumbs/miniproject/proj4.png",
+    ghLink: "https://github.com/sirine707/exam-genius",
+    imgSrc: "/thumbnails/miniproject/proj4.png",
   },
   {
     title: "BlinkPost - Social Media Post Generator",
-    ghLink: "https://github.com/sirine707/BlinkPost",
-    imgSrc: "/ProjectThumbs/miniproject/proj5.png",
+    ghLink: "https://github.com/sirine707/blink-post",
+    imgSrc: "/thumbnails/miniproject/proj5.png",
   },
 ];
+
 // GSAP
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -162,6 +246,72 @@ function Projects() {
         </div>
 
         <div className="flex flex-col gap-10">
+          {/* New Featured Projects */}
+          <div className="slide-in-up flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-5">
+            <ProjectCard
+              title="PDF Guru Clone — PDF Management Solution"
+              desc="A full-featured PDF management platform with AI-powered summarization, file conversion, and editing capabilities. (Next.js, TypeScript, Express, PostgreSQL, OpenAI)"
+              fullDescription="PDF Guru Clone is a comprehensive take-home project that demonstrates modern web development capabilities with advanced PDF management features. The platform includes three main modules: PDF Converter (supporting 18+ file formats), PDF Editor with PSPDFKit integration, and an AI-powered Summarizer using OpenAI's Assistant API. Built with Next.js App Router and Express backend, it features JWT authentication, internationalization (English & French), and a clean, modular architecture."
+              technologies={[
+                "Next.js 15",
+                "TypeScript",
+                "Express.js",
+                "PostgreSQL",
+                "Prisma ORM",
+                "OpenAI API",
+                "PSPDFKit Web SDK",
+                "next-intl",
+                "JWT Authentication",
+                "ConvertAPI",
+                "Tailwind CSS",
+              ]}
+              features={[
+                "PDF Converter: Support for 18+ file format conversions (PDF↔Word, Excel, JPG, PNG, etc.)",
+                "AI-Powered Summarizer: Intelligent document analysis with thread-based conversations using OpenAI Assistant API",
+                "PDF Editor: Client-side PDF editing with PSPDFKit (annotations, signatures, forms)",
+                "Multi-language Support: Fully internationalized interface in English and French",
+                "User Authentication: Secure JWT-based authentication with bcrypt password hashing",
+                "File Management: Drag-and-drop uploads with 10MB file size support",
+                "Responsive Design: Modern, clean UI optimized for all devices",
+                "Modal-based Workflow: Smooth user experience with loading states and success feedback",
+              ]}
+              ghLink="https://github.com/sirine707/pdfguru-clone-take-home-project"
+              liveLink="https://pdfguru-clone.sirinejnayeh.com"
+              imgSrc="thumbnails/pdfguru-clone-take-home-project.png"
+              onCardClick={handleProjectClick}
+            />
+            <ProjectCard
+              title="Dubai Real Estate Data Analytics"
+              desc="Comprehensive data analysis of Dubai's real estate market with interactive visualizations and insights. (Python, Pandas, Plotly, Seaborn)"
+              fullDescription="Dubai Real Estate Data Analytics is an exploratory data analysis project that examines Dubai's real estate market through comprehensive statistical analysis and interactive visualizations. The project analyzes property trends, pricing patterns, location-based insights, and market dynamics using real-world data. It features interactive dashboards, geographical heat maps, and predictive analytics to uncover valuable insights about Dubai's property market."
+              technologies={[
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Plotly",
+                "Seaborn",
+                "Matplotlib",
+                "Jupyter Notebook",
+                "Data Visualization",
+                "Statistical Analysis",
+              ]}
+              features={[
+                "Property Price Analysis: Statistical analysis of pricing trends across different property types and locations",
+                "Interactive Dashboards: Dynamic visualizations using Plotly for exploring market data",
+                "Location Intelligence: Geographical analysis of property distribution and pricing by area",
+                "Market Trends: Time-series analysis of property market evolution and seasonal patterns",
+                "Comparative Analysis: Property type comparisons (apartments, villas, townhouses) with detailed metrics",
+                "Data Cleaning & Processing: Robust data preprocessing pipeline for handling real-world datasets",
+                "Visual Insights: Beautiful charts, heat maps, and correlation matrices for pattern discovery",
+                "Statistical Metrics: Comprehensive statistical summaries including mean, median, distribution analysis",
+              ]}
+              ghLink="https://github.com/sirine707/dubai-real-estate-data-analytics"
+              liveLink="https://re-data-analytics.sirinejnayeh.com"
+              imgSrc="thumbnails/dubai-real-estate-data-analytics.png"
+              onCardClick={handleProjectClick}
+            />
+          </div>
+
           <div className="slide-in-up flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-5">
             <ProjectCard
               title="EmiratEstate — Real Estate Platform"
@@ -188,8 +338,8 @@ function Projects() {
                 "Responsive Design: Fully optimized for desktop and mobile devices.",
               ]}
               ghLink="https://github.com/sirine707/Real-Estate"
-              liveLink="https://emiratestate.pages.dev/"
-              imgSrc="ProjectThumbs/proj1.png"
+              liveLink=""
+              imgSrc="thumbnails/proj1.png"
               onCardClick={handleProjectClick}
             />
             <ProjectCard
@@ -219,8 +369,8 @@ function Projects() {
                 "Admin Endpoints for Managing Users and Sessions",
               ]}
               ghLink="https://github.com/sirine707/ensuite-study-buddy"
-              liveLink="https://study-buddy.pages.dev/"
-              imgSrc="ProjectThumbs/proj2.png"
+              liveLink=""
+              imgSrc="thumbnails/proj2.png"
               onCardClick={handleProjectClick}
             />
           </div>
@@ -251,13 +401,13 @@ function Projects() {
                 "Hosted Mode: Push images to Docker Hub when running in cloud/hosted environments",
               ]}
               ghLink="https://github.com/sirine707/AlphaCode"
-              liveLink="#"
-              imgSrc="ProjectThumbs/proj3.png"
+              liveLink="https://alpha-code-delta.vercel.app/"
+              imgSrc="thumbnails/proj3.png"
               onCardClick={handleProjectClick}
             />
 
             <ProjectCard
-              title="SmartMedia&nbsp; — &nbsp;Coming Next .."
+              title="SmartMedia&nbsp; — &nbsp;Coming Next..."
               desc="Telegram bot to download YouTube videos in various qualities up to 4K resolution. (Python, pyTelegramBotAPI)"
               fullDescription="SmartMedia is an advanced Telegram bot that enables users to download YouTube videos directly through Telegram chat. Built with Python and the pyTelegramBotAPI library, this bot supports multiple video qualities including 4K resolution, audio-only downloads, and provides a user-friendly interface for selecting download preferences. The bot handles video processing efficiently and delivers files directly to users' Telegram chats."
               technologies={[
@@ -278,9 +428,9 @@ function Projects() {
                 "User-friendly command interface",
                 "Error handling and retry mechanisms",
               ]}
-              ghLink="#"
-              liveLink="#"
-              imgSrc="ProjectThumbs/TelegramYTDLBot.png"
+              ghLink="https://github.com/sirine707"
+              liveLink=""
+              imgSrc="thumbnails/TelegramYTDLBot.png"
               onCardClick={handleProjectClick}
             />
           </div>
@@ -288,6 +438,7 @@ function Projects() {
           <div className="slide-in-up mt-4">
             <MiniProjectsCardSlider miniProjectsList={SmallProjectsList} />
           </div>
+
           <div className="slide-in-up mt-4">
             <SectionHeading
               label="Achievements"

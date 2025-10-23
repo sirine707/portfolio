@@ -67,6 +67,9 @@ function CTA() {
               Book a Free Call
             </Button>
           </div>
+          <p className="fade-in mx-auto mt-7 max-w-lg text-base font-light text-stone-200">
+            or send me an email at: <a href="mailto:contact@sirinejnayeh.com" className="text-primary-blue underline">contact@sirinejnayeh.com</a>
+          </p>
         </div>
       </div>
     </section>

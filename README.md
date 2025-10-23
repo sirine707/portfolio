@@ -142,7 +142,7 @@ yarn preview
 
 1. Open `src/sections/Projects/Projects.jsx`
 2. Add new projects to the appropriate arrays
-3. Add project images to `public/ProjectThumbs/`
+3. Add project images to `public/thumbnails/`
 
 ### Updating Skills
 
